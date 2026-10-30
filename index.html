@@ -1,4 +1,23 @@
-<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Primeira Pelada dos Sócios do Orange – Dashboard 2026</title>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Primeira Pelada dos Sócios do Orange – Dashboard 2026</title>
+<style>
+:root{--bg:#f4f1ea;--card:#fff;--tx:#0b1b3a;--mu:#5d6b85;--navy:#0b1b3a;--gold:#c9a227;--bd:#e2dccb;--g:#1f9d55;--r:#c0392b;--b:#2e5eaa;--w:#a50044;--bl:#034694;--ar:#5aa7d8;--br:#2e9c4a;color-scheme:light;padding:env(safe-area-inset-top,0) 0 env(safe-area-inset-bottom,0)}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0a1226;--card:#121d38;--tx:#f1ecdc;--mu:#9aa8c4;--bd:#25335a;--navy:#060d1f;color-scheme:dark}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.4 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+header{background:var(--navy);color:#f1ecdc;padding:18px 16px;border-bottom:4px solid var(--gold)}
+header h1{margin:0;font-size:20px;color:var(--gold);display:flex;align-items:center;gap:12px}
+header p{margin:2px 0 0;color:#b9c3da;font-size:12px}
+.logo-img{height:38px;width:38px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);vertical-align:middle}
+nav{display:flex;gap:4px;overflow-x:auto;padding:8px 12px;background:var(--card);border-bottom:1px solid var(--bd);position:sticky;top:0;z-index:5}
+nav button{border:0;background:none;color:var(--mu);padding:8px 12px;border-radius:8px;font:600 13px inherit;cursor:pointer;white-space:nowrap;transition:all .2s}nav button.on{background:var(--navy);color:var(--gold)}
+main{max-width:1100px;margin:0 auto;padding:14px}.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}.g2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.c{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:12px}.k b{display:block;font-size:26px;color:var(--navy)}@media(prefers-color-scheme:dark){.k b{color:var(--gold)}}.k span{color:var(--mu);font-size:12px}
+h2{font-size:15px;margin:16px 0 8px}h3{font-size:13px;margin:0 0 8px;color:var(--mu);text-transform:uppercase;letter-spacing:.04em}
+.wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:480px}th,td{padding:8px;text-align:left;border-bottom:1px solid var(--bd);white-space:nowrap}th{color:var(--mu);font-size:12px;cursor:pointer;position:sticky;top:0;background:var(--card);user-select:none}th:hover{color:var(--gold)}td.n,th.n{text-align:right}<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Primeira Pelada dos Sócios do Orange – Dashboard 2026</title>
 <style>
 :root{--bg:#f4f1ea;--card:#fff;--tx:#0b1b3a;--mu:#5d6b85;--navy:#0b1b3a;--gold:#c9a227;--bd:#e2dccb;--g:#1f9d55;--r:#c0392b;--b:#2e5eaa;--w:#a50044;--bl:#034694;--ar:#5aa7d8;--br:#2e9c4a;color-scheme:light;padding:env(safe-area-inset-top,0) 0 env(safe-area-inset-bottom,0)}
 @media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0a1226;--card:#121d38;--tx:#f1ecdc;--mu:#9aa8c4;--bd:#25335a;--navy:#060d1f;color-scheme:dark}}
@@ -60,3 +79,22 @@ let h=`<h2>Presentes por mês</h2><div class="c"><div class="grid" style="grid-t
 function di(){const L=[...ps].filter(p=>p.am||p.vm).sort((a,b)=>b.vm-a.vm||b.am-a.am);return `<div class="grid">${kpi(tot.am,'Cartões amarelos')}${kpi(tot.vm,'Cartões vermelhos')}${kpi(L.length,'Atletas advertidos')}</div><h2>Ranking de cartões</h2>`+tbl([['Atleta'],['Amarelos',1],['Vermelhos',1],['Partidas',1]],L.map(p=>[p.n,p.am,p.vm,p.pr]),'td')+(window.after=()=>sortable('td'),'')}
 go(0)
 </script></body></html>
+
+.bar{height:10px;border-radius:5px;background:var(--bd);overflow:hidden;display:flex}.bar i{display:block;height:100%}
+.row{display:grid;grid-template-columns:110px 1fr 40px;gap:8px;align-items:center;margin:6px 0;font-size:12px}
+input,select{padding:8px;border:1px solid var(--bd);border-radius:8px;background:var(--card);color:var(--tx);font:inherit;outline:none}input:focus,select:focus{border-color:var(--gold)}
+.tools{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.tag{padding:2px 8px;border-radius:9px;font-size:11px;font-weight:600;color:#fff}.V{background:var(--g)}.D{background:var(--r)}.E{background:#8a8f9c}
+.chip{display:inline-block;width:14px;height:14px;border-radius:3px;margin-right:2px;vertical-align:middle}.sub{color:var(--mu);font-size:12px}svg{width:100%;height:auto;display:block;max-height:220px}
+.hm td{padding:4px 6px;text-align:center;min-width:28px}
+</style></head><body>
+<header>
+  <h1>
+    <img src="logo.jpeg" alt="Logo da Pelada" class="logo-img">
+    Primeira Pelada dos Sócios do Orange
+  </h1>
+  <p>Ilha de Itamaracá-PE · Temporada 2026 · Brasil × Argentina e Chelsea × Barcelona</p>
+</header>
+<nav id="nav"></nav><main id="m"></main>
+<script>
+const D={"games":[["2026-01-04","ARGENTINA",5,"BRASIL",4],["2026-01-11","ARGENTINA",2,"BRASIL",8],["2026-01-18","ARGENTINA",4,"BRASIL",1],["2026-01-25","ARGENTINA",4,"BRASIL",6],["2026-02-01","ARGENTINA",2,"BRASIL",5],["2026-02-08","ARGENTINA",4,"BRASIL",6],["2026-02-15","ARGENTINA",1,"BRASIL",1],["2026-02-22","ARGENTINA",2,"BRASIL",4],["2026-03-01","ARGENTINA",5,"BRASIL",6],["2026-03-08","ARGENTINA",5,"BRASIL",1],["2026-03-15","ARGENTINA",5,"BRASIL",5],["2026-03-22","ARGENTINA",0,"BRASIL",3],["2026-03-29","ARGENTINA",7,"BRASIL",5],["2026-04-05","ARGENTINA",4,"BRASIL",6],["2026-04-12","ARGENTINA",10,"BRASIL",0],["2026-04-19","ARGENTINA",2,"BRASIL",5],["2026-04-21","ARGENTINA",5,"BRASIL",9],["2026-04-26","ARGENTINA",15,"BRASIL",4],["2026-05-03","ARGENTINA",4,"BRASIL",2],["2026-05-10","BARCELONA",1,"CHELSEA",7],["2026-05-17","BARCELONA",3,"CHELSEA",7],["2026-05-24","BARCELONA",2,"CHELSEA",2],["2026-05-31","BARCELONA",10,"CHELSEA",4],["2026-06-07","BARCELONA",2,"CHELSEA",9],["2026-06-14","BARCELONA",2,"CHELSEA",2],["2026-06-21","BARCELONA",5,"CHELSEA",4],["2026-06-28","BARCELONA",10,"CHELSEA",5],["2026-07-05","BARCELONA",6,"CHELSEA",7],["2026-07-12","BARCELONA",2,"CHELSEA",3],["2026-07-19","BARCELONA",1,"CHELSEA",3],["2026-07-26","BARCELONA",7,"CHELSEA",2],["2026-08-02","BARCELONA",1,"CHELSEA",5],["2026-08-09","BARCELONA",2,"CHELSEA",3],["2026-08-16","BARCELONA",4,"CHELSEA",0],["2026-08-23","BARCELONA",4,"CHELSEA",8],["2026-08-30","BARCELONA",1,"CHELSEA",1],["2026-09-06","BARCELONA",8,"CHELSEA",4],["2026-09-13","BARCELONA",2,"CHELSEA",6],["2026-09-20","BARCELONA",10,"CHELSEA",3],["2026-09-27","BARCELONA",9,"CHELSEA",6],["2026-10-04","BARCELONA",6,"CHELSEA",4],["2026-10-11","BARCELONA",3,"CHELSEA",6],["2026-10-18","BARCELONA",3,"CHELSEA",2],["2026-10-25","BARCELONA",7,"CHELSEA",3]],"dates":["2026-01-04","2026-01-11","2026-01-18","2026-01-25","2026-02-01","2026-02-08","2026-02-15","2026-02-22","2026-03-01","2026-03-08","2026-03-15","2026-03-22","2026-03-29","2026-04-05","2026-04-12","2026-04-19","2026-04-21","2026-04-26","2026-05-03","2026-05-10","2026-05-17","2026-05-24","2026-05-31","2026-06-07","2026-06-14","2026-06-21","2026-06-28","2026-07-05","2026-07-12","2026-07-19","2026-07-26","2026-08-02","2026-08-09","2026-08-16","2026-08-23","2026-08-30","2026-09-06","2026-09-13","2026-09-20","2026-09-27","2026-10-04","2026-10-11","2026-10-18","2026-10-25"],"
